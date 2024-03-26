@@ -1,0 +1,22 @@
+img{margin-left: 572px;
+    width: 150px;
+    height: 80px;
+    margin-top: 50px;}
+div{border: 2px dashed black;
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;}
+.oi{border: 2px solid black;
+    width: 110px;
+    margin: auto;
+    margin-top: 10px;}
+.le{width: 110px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.hi{vertical-align: middle;
+    text-align: center;}
+.es{vertical-align: middle;
+    text-align: center;
+    margin-top: 40px;}
