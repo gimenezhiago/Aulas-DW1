@@ -12,12 +12,14 @@ p{color: antiquewhite(78, 56, 28);
     text-align: center;
     font-size: small;}
 
-li{color: antiquewhite;}
+li{color: antiquewhite;
+    margin-top: 7px;}
 ul{color: antiquewhite;    
     border: 2px dashed purple;
     width: 130px;
     margin-left: 350px;
-    list-style-type: none;}
+    list-style-type: none;
+    height: 500px;}
 .Pote{color: antiquewhite;
     border: 2px dashed purple;
     width: 130px;
