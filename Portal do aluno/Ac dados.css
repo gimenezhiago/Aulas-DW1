@@ -25,24 +25,3 @@ div{display: flex;
     margin-left: 20px;
     height: 40px;}
 
-.ta{margin-left: 30px;
-    margin-right: 30px;}
-.um{background-color: antiquewhite;
-    height: 15px;
-    width: 1200px;}
-.do{background-color: grey;
-    height: 15px;
-    width: 1200px;}
-.se{background-color: antiquewhite;
-    height: 15px;
-    width: 1200px;}
-
-th{background-color: cadetblue;
-    height: 15px;
-    width: 197px;}
-.bo{margin-left: 30px;
-    margin-right: 30px;}
-.va{background-color: antiquewhite;
-    height: 15px;
-    width: 197px;}
-
