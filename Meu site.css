@@ -1,0 +1,13 @@
+body{background-color: black;}
+
+#oi{background-color: darkcyan;
+    height: 150px;
+    color: antiquewhite;}
+p{font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;}
+
+.corpo{width: 20px;}
+.botao{margin-top: 40px;
+    height: 20px;
+    width: 30px;}
