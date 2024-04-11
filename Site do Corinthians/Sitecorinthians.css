@@ -1,0 +1,15 @@
+#titulo{background-color: black;
+    display: flex;
+    height: 40px;}
+h1{color: antiquewhite;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 5px;}
+#corpo{color: black;
+    display: flex;
+    margin-left: 350px;
+    margin-top: 150px;}
+p{margin-left: 80px;}
+.acesso{margin-left: 10px;}
+img{height: 50px;
+    width: 50px;}
