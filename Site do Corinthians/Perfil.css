@@ -1,0 +1,13 @@
+.quadro{display: flex;
+    margin-top: 120px;}
+.quadro1{border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    height: 300px;
+    margin-left: 270px;}
+.quadro2{border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    height: 300px;
+    margin-left: 270px;}
+.escrita{border: 1px dashed black;}
