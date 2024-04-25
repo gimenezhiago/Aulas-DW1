@@ -18,15 +18,17 @@
 .distancia2{padding-left: 296px;}
 
 table{border: 2px solid black;}
-.margem{margin-left: 30px;
-    margin-right: 30px;}
+.margem{margin-left: 170px;
+    margin-right: 170px;}
 button{background-color: gray;
     color: black;}
 .linha{background-color: antiquewhite;
     color: black;
     height: 15px;
     width: 1200px;}
+.botao{background-color: antiquewhite;}
+.forma1{background-color: darkslateblue;}
 .forma{background-color: antiquewhite;
     color: black;
     height: 15px;
-    width: 197px;}
+    width: 220px;}
