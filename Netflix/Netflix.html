@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+<body>
+    <header id="menu">
+        <div>
+            <h1>Netflix</h1>
+            <button>
+                <h1 id="entrar">Sing in</h1>
+            </button>
+        </div>
+    </header>
+    <main id="meio">
+        <div>
+            <h1>Unlimited movies, TV shows, and more</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <h3>Ready to watch? Enter your email or mobile number to create or restart your membership.</h3>
+        </div>
+        <div class="entrada">
+            <p contenteditable>Email or mobile number</p>
+            <button>Get Started</button>
+        </div>
+    </main>
+</body>
+
+
+
+
+<style>
+    *{padding: 0;
+        margin: 0;}
+    
+    body{background-position: top center;
+        background-size: cover;
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/058eee37-6c24-403a-95bd-7d85d3260ae1/3160783b-d0d2-4b19-97f2-b3dd1bc148e3/BR-pt-20240422-POP_SIGNUP_TWO_WEEKS-perspective_WEB_5fd0f42f-e0c6-41bb-b0e6-33f66111c544_medium.jpg);}
+    
+    #menu div{display: flex;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: red;
+        background: rgba(0, 0, 0, 0.8);}
+
+    div button{background: red;
+        color: antiquewhite;
+        border: 1px solid red;
+        border-radius: 7px;}
+
+    #menu h1{font-size: 30px;
+        font-family: sans-serif;
+        text-transform: uppercase;}
+
+    #menu #entrar{font-size: 15px;
+        font-family: sans-serif;}
+
+
+    #meio h1{color: antiquewhite;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 40px;
+        padding-top: 130px;}
+    #meio h2{color: antiquewhite;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        padding-top: 20px;}
+    #meio h3{color: antiquewhite;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding-top: 10px;}
+    #meio .entrada{padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 500px;
+        padding-right: 550px;}
+    .entrada p{border: 2px solid;
+        background: rgba(0, 0, 0, 0.5);
+        width: 155px;
+        border-radius: 7px;}
+    .entrada button{width: 100px;
+        height: 40px;}
+</style>
+</html>
