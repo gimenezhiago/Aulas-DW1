@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Shadows+Into+Light&display=swap');
+
+*{padding: 0;
+    margin: 0;}
+
+body{background-image: url(https://th.bing.com/th/id/OIF.ycJ3sLuucN5whEDT8hbMuw?w=322&h=181&c=7&r=0&o=5&pid=1.7);
+    background-size: cover;}
+
+.cabeca h1, footer{font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    color: #fafaff;
+    background: rgba(0, 0, 0, 0.8);}
+
+.q1{display: flex;
+    justify-content: space-between;
+    margin-top: 40px;}
+.q1 .quadro1, .quadro2, .quadro3{border: 2px solid black;
+    width: 200px;
+    height: 240px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    color: #f4f1de;}
+.q1 .quadro1{margin-left: 100px;}
+.q1 .quadro3{margin-right: 100px;}
+img{width: 170px;
+    height: 180px;
+    padding-left: 5px;
+    padding-top: 15px;}
