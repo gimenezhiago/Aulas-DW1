@@ -13,6 +13,7 @@ body{background-image: url(https://th.bing.com/th/id/OIF.ycJ3sLuucN5whEDT8hbMuw?
 
 .q1{display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 40px;}
 .q1 .quadro1, .quadro2, .quadro3{border: 2px solid black;
     width: 200px;

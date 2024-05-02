@@ -15,3 +15,6 @@ p{margin-left: 80px;}
 .acesso{margin-left: 10px;}
 img{height: 50px;
     width: 50px;}
+#corpo a{cursor: col-resize;}
+
+ol a:hover{background: rgba(0, 0, 0, 0.2);}
