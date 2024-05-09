@@ -1,43 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
 body{padding: 0;
     margin: 0;}
+img{height: 35px;
+    width: 35px;}
 
-#menu{background: #f21b3f;
+#menu{background: #bad7f2;
     display: flex;
+    height: 55px;
     justify-content: center;
-    padding: 10px, 30px, 10px, 30px;}
-#menu img, p{padding-left: 30px;
-    padding-right: 30px;
-    height: 20px;
-    text-decoration: none;}
-#menu a:hover{background: rgba(0, 0, 0, 0.6);}
+    align-items: center;}
 #menu a{text-decoration: none;
     text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+#menu a:hover{background: rgba(0, 0, 0, 0.5);}
+
+h1{text-align: center;
+    font-family: "Lato", sans-serif;
     font-style: normal;}
 
 
-
-h1{text-align: center;
-    font-family: "Poetsen One", sans-serif;}
 table{border-collapse: collapse;
     width: 900px;
-    margin: 30px 0 5px 150px;}
-table th, table td{border: 2px solid black;
-    height: 15px;
-    font-family: "Signika Negative", sans-serif;
-    text-transform: capitalize;
-    text-align: center;}
-tr:hover{background: rgba(0, 0, 0, 0.3);}
-table th{background: gray}
-img{width: 30px;
-    height: 30px;}
-#nome{text-align: left;}
+    margin-left: 200px;}
+table th, table td{border: 3px solid black;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+table th{background: gray;}
+table #nome{text-align: left;
+    align-items: center;}
+table tr:hover{background: rgba(0, 0, 0, 0.2);
+    cursor: grab;}
 
-#campeao{background: #29bf12;}
-#liberta{background: #abff4f;}
-#pre{background: #08bdbd;}
-#sula{background: #ff9914;}
+#campeao{background:#29bf12 ;}
+#liberta{background:#abff4f ;}
+#pre{background:#08bdbd }
+#sula{background:#ff9914 ;}
 #nada{background: white;}
-#reba{background: #f21b3f;}
+#reba{background:#f21b3f ;}
+
+footer p{margin-left: 200px;
+    font-family: "Freeman", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;}
