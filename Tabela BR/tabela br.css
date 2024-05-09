@@ -4,6 +4,21 @@
 body{padding: 0;
     margin: 0;}
 
+#menu{background: #f21b3f;
+    display: flex;
+    justify-content: center;
+    padding: 10px, 30px, 10px, 30px;}
+#menu img, p{padding-left: 30px;
+    padding-right: 30px;
+    height: 20px;
+    text-decoration: none;}
+#menu a:hover{background: rgba(0, 0, 0, 0.6);}
+#menu a{text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;}
+
+
+
 h1{text-align: center;
     font-family: "Poetsen One", sans-serif;}
 table{border-collapse: collapse;
@@ -14,7 +29,8 @@ table th, table td{border: 2px solid black;
     font-family: "Signika Negative", sans-serif;
     text-transform: capitalize;
     text-align: center;}
-table th{background: rgba(0, 0, 0, 0.6);}
+tr:hover{background: rgba(0, 0, 0, 0.3);}
+table th{background: gray}
 img{width: 30px;
     height: 30px;}
 #nome{text-align: left;}
@@ -23,4 +39,5 @@ img{width: 30px;
 #liberta{background: #abff4f;}
 #pre{background: #08bdbd;}
 #sula{background: #ff9914;}
+#nada{background: white;}
 #reba{background: #f21b3f;}
