@@ -3,24 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <link rel="stylesheet" href="prova.css">
+    <title>Pesquisa pra Vidinha</title>
 </head>
 <body>
-    <form action="#">
-        <section>
-            <h1>Login</h1>
+    <header>
+        <h1>Pesquisa para minha vidinha</h1>
+        <h2>Para saber se ela me conhece</h2>
+    </header>
+    <section>
+        <form action="#" target="_blank" autocomplete="off">
             <p>
-                <label for="usuario">Nome</label>
-                <input type="text" name="usuario" placeholder="Usuário1">
+                <label for="nome" id="block">Qual é o meu nome:</label>
+                <input type="text" name="nome" placeholder="Nome do seu namorado">
             </p>
             <p>
-                <label for="senha"></label>
-                <input type="text" name="senha" placeholder="Senha">
+                <label for="#" id="block">Qual cidade eu nasci:</label>
+                <img src="" alt="">
+                <label for="cidade">Campo Mourão</label>
+                <input type="radio" name="cidade"><br>
+                <label for="cidade">Araruna</label>
+                <input type="radio" name="cidade"><br>
+                <label for="cidade">Guaratuba</label>
+                <input type="radio" name="cidade">
             </p>
-        </section>
-    </form>
+            <p>
+                <label for="data" id="block">Que dia e hora eu nasci:</label>
+                <input type="datetime-local" name="data">
+            </p>
+            <p>
+                <label for="cor" id="block">Qual é a minha cor favorita:</label>
+                <input type="color" name="cor">
+            </p>
+            <p>
+                <label for="senha" id="block">Qual senha eu uso geralmente:</label>
+                <input type="password" name="senha" placeholder="Luanalinda">
+            </p>
+            <p>
+                <label for="email" id="block">Qual é o meu email:</label>
+                <input type="email" name="email" placeholder="@vidinhatotosa">
+            </p>
+
+            <p>
+                <button type="submit">Tudo certo</button>
+                <button type="reset">Errou alguma coisa né(reset)</button>
+            </p>
+
+
+
+        </form>
+    </section>
 </body>
-<style>
-    label{display: grid;}
-</style>
 </html>
