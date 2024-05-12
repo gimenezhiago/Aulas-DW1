@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Freeman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
 body{padding: 0;
     margin: 0;
-    background-image: url(https://images3.alphacoders.com/774/774375.jpg);
+    background-image: url(https://th.bing.com/th?id=OIP.dA2229-f2h7kqBIBgTJbLAAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2);
     background-position: center;
     background-size: cover;}
 *{font-family: "Nunito", sans-serif;
     font-weight: 700;}
+img{width: 17px;
+    height: 17px;}
 
 section, header{justify-content: center;
     align-items: center;
@@ -13,8 +16,11 @@ section, header{justify-content: center;
 section form{margin-left: 400px;
     margin-right: 400px;}
 
-section #block{display: block;}
-section input{background: #b100e8;
-    background: rgba(0, 0, 0, 0.2);
+section #block{display: block;
+    margin-top: 30px;}
+section input,textarea{background: rgba(0, 0, 0, 0.2);
     border-radius: 7px;}
-section button{border-radius: 10px;}
+section button{border-radius: 10px;
+    background: #7209b7;
+    margin-bottom: 50px;
+    margin-top: 30px;}
