@@ -3,13 +3,12 @@
 *{padding: 0;
     margin: 0;}
 
-body{background-image: url(https://th.bing.com/th/id/OIF.ycJ3sLuucN5whEDT8hbMuw?w=322&h=181&c=7&r=0&o=5&pid=1.7);
-    background-size: cover;}
+body{background:linear-gradient( white, black);}
 
 .cabeca h1, footer{font-family: "Comfortaa", sans-serif;
     text-align: center;
     color: #fafaff;
-    background: rgba(0, 0, 0, 0.8);}
+    background: rgba(0, 0, 0, 0.5);}
 
 .q1{display: flex;
     justify-content: space-between;
