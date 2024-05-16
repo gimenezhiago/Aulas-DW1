@@ -3,42 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
-    <nav id="menu">
-        <img src="https://static.vecteezy.com/system/resources/previews/000/442/267/original/vector-shop-icon.jpg" alt="">
-        <a href="#">Menu</a>
-        <a href="#">Sobre</a>
-        <a href="#">Configurações</a>
-    </nav>
+    <section>
+        <form action="#" target="_self">
+            <h1 style="padding-left: 120px">Login</h1>
+            <p>
+                <label for="email">Escreva o seu email:</label>
+                <input type="email" name="email" placeholder="@****">
+            </p>
+            <p>
+                <label for="senha">Escreva a sua senha:</label>
+                <input type="password" name="senha" placeholder="Ex.:a1b2c3">
+            </p>
+            <a href="#">Esqueci a senha</a>
+            <p>
+                <button type="submit">Login</button>
+                <button type="reset">Resetar</button>
+            </p>
+        </form>
+    </section>
 </body>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
-    *{padding: 0;
-        margin: 0;}
+    @import url('https://fonts.googleapis.com/css2?family=Freeman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Color+Emoji&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+    body{padding: 0;
+        margin: 0;
+        font-family: "Reddit Sans", sans-serif;
+        background: #8ecae6;}
 
-    #menu{display: flex;
-        background: #bf0603;
-        height: 50px;
-        align-items: center;
-        justify-content: center;}
+    section{border: 2px solid #219ebc;
+        border-radius: 7px;
+        width: 300px;
+        height: 300px;
+        margin: 150px 300px 170px 500px;
+        background: #219ebc;}
 
-    #menu a{text-decoration: none;
-        text-transform: capitalize;
-        padding-left: 30px;
-        padding-right: 30px;
-        height: 40px;
-        padding-top: 10px;
-        color: #f4d58d;
-        font-family: "Freeman", sans-serif;
-        font-weight: 400;
-        font-style: normal;}
+    section h1, p, a{padding-left: 60px;
+        padding-top: 5px;
+        align-items: center;}
 
-    #menu a:hover{background: rgba(0, 0, 0, 0.3);}
+    section input{border-bottom: 2px solid black;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        background: #219ebc;}
+    section input:hover{background: #219ebc;}
 
-    img{height: 30px;
-        width: 30px;}
+    section a{text-decoration: none;
+        font-size: small;}
+
+    section button{background: #00b4d8;
+        border: #00b4d8;
+        height: 25px;
+        width: 60px;
+        transition: 0.3s;
+        border-radius: 5px;
+    justify-content: space-around;}
+    section button:hover{background: rgba(0, 0, 0, 0.4);
+        color: antiquewhite;
+        translate: -2px;
+        cursor: pointer;}
+
 </style>
 </html>
