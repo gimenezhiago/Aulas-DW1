@@ -1,4 +1,3 @@
--- As visualizações da prova de banco de dados
 
 
 -- Para mostrar as tabelas
