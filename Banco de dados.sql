@@ -75,3 +75,9 @@ where nome='Gabriel Istchuk';
 select idproduto, idpedido 
 from produto, pedido
 where idproduto=idpedido;
+
+-- Para relacionar tabela
+select idproduto
+from produto p
+inner join estoque e
+on p.idproduto= e.idproduto
