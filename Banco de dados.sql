@@ -76,7 +76,7 @@ select idproduto, idpedido
 from produto, pedido
 where idproduto=idpedido;
 
--- Para relacionar tabela
+-- Para relacionar tabelas
 select idproduto
 from produto p
 inner join estoque e
