@@ -81,3 +81,9 @@ select idproduto
 from produto p
 inner join estoque e
 on p.idproduto= e.idproduto
+
+
+-- Para relacionar tabela para esquerda
+select * from estoque e
+left join produto p 
+on p.idproduto = e.idproduto;
