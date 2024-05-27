@@ -4,8 +4,6 @@
     --cor-menu: #0d1b2a;
     --altura-menu: 40px;
     --cor-secao1: #003f88;
-    --cor-secao2: #00b4d8;
-    --cor-secao3: #90e0ef;
     --cor-contato: #caf0f8;
     --cor-palavras: black;
 }
@@ -107,15 +105,20 @@ div section a {
 }
 
 #secao2 {
-    background: var(--cor-secao2);
+    background: url(https://i0.wp.com/itusers.today/wp-content/uploads/2019/12/Se-anuncian-mundos-creados-por-los-jugadores-de-Minecraft-con-Ray-Traced.jpg?w=1200&ssl=1);
+    background-size: cover;
+    background-position: center;
     height: var(--altura-tela);
     padding-left: var(--margem-escrever);
     padding-right: var(--margem-escrever);
     padding-top: var(--margem-escrever);
 }
 
+
 #secao3 {
-    background: var(--cor-secao3);
+    background: url(https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2020/01/legiao_Z1Rr3VKwx0Qlo2bX97iTz5GNBgedWSyFJLanOs8DUu.jpg.jpeg);
+    background-position: center;
+    background-size: cover;
     height: var(--altura-tela);
     padding-left: var(--margem-escrever);
     padding-right: var(--margem-escrever);
