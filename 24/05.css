@@ -1,18 +1,30 @@
 :root {
+    --margem-escrever: 20px;
     --altura-tela: 100vh;
-    --cor-menu: #03045e;
+    --cor-menu: #0d1b2a;
     --altura-menu: 40px;
-    --cor-secao1: #0077b6;
+    --cor-secao1: #003f88;
     --cor-secao2: #00b4d8;
     --cor-secao3: #90e0ef;
     --cor-contato: #caf0f8;
     --cor-palavras: black;
 }
 
+img {
+    width: 200px;
+    height: 50px;
+}
+
 * {
     padding: 0;
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu img {
+    width: 100px;
+    height: 30px;
+    margin-top: 6px;
 }
 
 #menu {
@@ -24,6 +36,8 @@
 #menu ul {
     display: flex;
     justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #menu li {
@@ -33,39 +47,104 @@
 #menu a {
     text-decoration: none;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 11px;
     color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.8s;
 }
 
 #menu a:hover {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 170px;
+    translate: 0.3px;
 }
 
-div a {
+
+
+
+div section h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+div section a {
     color: var(--cor-palavras);
     font-size: 20px;
-}
-
-div h1 {
-    text-align: center;
 }
 
 #secao1 {
     background: var(--cor-secao1);
     height: calc(var(--altura-tela) - var(--altura-menu));
+    padding-left: var(--margem-escrever);
+    padding-right: var(--margem-escrever);
+    padding-top: var(--margem-escrever);
+}
+
+#secao1 p label {
+    display: block;
+    padding-top: 80px;
+}
+
+#secao1 p input {
+    background: var(--cor-secao1);
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    width: 300px;
+    color: antiquewhite;
+}
+
+#secao1 p button {
+    background: var(--cor-secao1);
+    border: none;
+}
+
+#secao1 p button:hover {
+    background: rgba(0, 0, 0, 0.2);
+    cursor: copy;
+    color: antiquewhite;
 }
 
 #secao2 {
     background: var(--cor-secao2);
     height: var(--altura-tela);
+    padding-left: var(--margem-escrever);
+    padding-right: var(--margem-escrever);
+    padding-top: var(--margem-escrever);
 }
 
 #secao3 {
     background: var(--cor-secao3);
     height: var(--altura-tela);
+    padding-left: var(--margem-escrever);
+    padding-right: var(--margem-escrever);
+    padding-top: var(--margem-escrever);
 }
 
-footer {
+#contato {
     background: var(--cor-contato);
-    height: 100px;
+    padding-top: var(--margem-escrever);
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+}
+
+#contato div p {
+    display: inline-flex;
+}
+
+#contato div a {
+    color: var(--cor-palavras);
+    font-size: 20px;
+}
+
+#contato div a:hover {
+    color: var(--cor-secao1);
+}
+
+#contato div img {
+    height: 15px;
+    width: 15px;
 }
