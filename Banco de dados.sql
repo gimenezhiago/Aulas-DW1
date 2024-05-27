@@ -87,3 +87,9 @@ on p.idproduto= e.idproduto
 select * from estoque e
 left join produto p 
 on p.idproduto = e.idproduto;
+
+
+-- Para relacionar tabela para direita
+select * from produto p
+right join estoque e
+on p.idproduto = e.idproduto
