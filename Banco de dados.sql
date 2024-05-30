@@ -92,4 +92,8 @@ on p.idproduto = e.idproduto;
 -- Para relacionar tabela para direita
 select * from produto p
 right join estoque e
-on p.idproduto = e.idproduto
+on p.idproduto = e.idproduto;
+
+
+-- Para gerar números aleatórios
+update funcionario set salary = round(rand() * 10000, 2)
