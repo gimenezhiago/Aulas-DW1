@@ -28,8 +28,7 @@ img {
 
 #menu {
     height: var(--altura-menu);
-    background: black;
-
+    background: #1b263b;
 }
 
 #menu ul {
@@ -73,7 +72,7 @@ div section a {
 }
 
 #secao1 {
-    background: url(https://th.bing.com/th/id/OIP.Y7cxYMK19B5u-071hhOXZQHaEK?w=323&h=181&c=7&r=0&o=5&pid=1.7);
+    background: url(https://wallup.net/wp-content/uploads/2018/10/04/900787-gaming-game-video-computer-gamer-poster.jpg);
     background-size: cover;
     background-position: center;
     height: calc(var(--altura-tela) - var(--altura-menu));
@@ -95,7 +94,6 @@ div section a {
     border-top: none;
     border-right: none;
     width: 300px;
-    color: antiquewhite;
 }
 
 #secao1 p button {
@@ -122,7 +120,6 @@ div section a {
 
 #secao3 {
     background: url(https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2020/01/legiao_Z1Rr3VKwx0Qlo2bX97iTz5GNBgedWSyFJLanOs8DUu.jpg.jpeg);
-    filter: drop-shadow(16px 16px 10px black);
     background-position: center;
     background-size: cover;
     height: var(--altura-tela);
