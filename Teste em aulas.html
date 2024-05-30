@@ -1,62 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="contanier">
-        <div class="cabeca">
-        <p hiago>asgh</p>
-        <p>psdafgfn</p>
-        <p>sadjfh</p>
-        <p>dfkdgjf</p>
-        </div>
-        <div class="card">
-            <h1>Lista de tarefa</h1>
-            <ul>
-                <li>Tarefa 1</li>
-                <li>Tarefa 2</li>
-                <li>Tarefa 3</li>
-            </ul>
-        </div>
+    <input required>
+    <div class="pai">
+        <ul class="lista">
+            <li>jj</li>
+            <li>dff</li>
+            <li>fgf</li>
+        </ul>
     </div>
 </body>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Freeman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Color+Emoji&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
-    :root{
-        --cor-primaria: black;
-        --cor: red;
-        --margem: 30px;
-        --fonte: 24px "DM Sans", sans-serif;
-        --altira: 200px;
+    .pai .lista li:first-child{
+        
+        background: red;}
+
+    input:required{
+        background: purple  ;
     }
-
-    *{padding: 0;
-        margin: 0;
-        box-sizing: border-box;}
-
-    body{background: var(--cor-primaria);
-        font: var(--fonte);}
-
-    .card{border: 2px solid antiquewhite;
-        background: var(--cor-primaria);
-        height: calc(100vh - var(--altira));}
-
-    .card ul{margin-left: 15px;
-        color: antiquewhite;}
-
-    .card h1{margin-bottom: 10px;
-        color: antiquewhite;}
-
-    .cabeca{background: var(--cor);
-        align-items: center;
-        height: var(--altira);
-        overflow-y: scroll;}
-    
-    .cabeca p{color: antiquewhite;}
-
-
 </style>
 </html>
