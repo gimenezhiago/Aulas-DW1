@@ -3,7 +3,7 @@
     --altura-tela: 100vh;
     --cor-menu: #0d1b2a;
     --altura-menu: 40px;
-    --cor-secao1: #003f88;
+    --cor-principal: #003f88;
     --cor-contato: #caf0f8;
     --cor-palavras: black;
 }
@@ -66,10 +66,14 @@ div section h1 {
     font-weight: 700;
 }
 
-div section a {
-    color: var(--cor-palavras);
+
+
+div section a{
+    font-weight: 600;
+    color: black;
     font-size: 20px;
 }
+
 
 #secao1 {
     background: url(https://wallup.net/wp-content/uploads/2018/10/04/900787-gaming-game-video-computer-gamer-poster.jpg);
@@ -88,7 +92,7 @@ div section a {
 }
 
 #secao1 p input {
-    background: var(--cor-secao1);
+    background: var(--cor-principal);
     border-bottom: 2px solid black;
     border-left: none;
     border-top: none;
@@ -97,7 +101,7 @@ div section a {
 }
 
 #secao1 p button {
-    background: var(--cor-secao1);
+    background: var(--cor-principal);
     border: none;
 }
 
@@ -107,14 +111,61 @@ div section a {
     color: antiquewhite;
 }
 
+
+
 #secao2 {
-    background: url(https://i0.wp.com/itusers.today/wp-content/uploads/2019/12/Se-anuncian-mundos-creados-por-los-jugadores-de-Minecraft-con-Ray-Traced.jpg?w=1200&ssl=1);
+    background:url(https://i0.wp.com/itusers.today/wp-content/uploads/2019/12/Se-anuncian-mundos-creados-por-los-jugadores-de-Minecraft-con-Ray-Traced.jpg?w=1200&ssl=1);
     background-size: cover;
     background-position: center;
     height: var(--altura-tela);
     padding-left: var(--margem-escrever);
     padding-right: var(--margem-escrever);
     padding-top: var(--margem-escrever);
+
+}
+
+#secao2 p,
+#secao3 p {
+    padding-top: 20px;
+}
+
+#secao2 .voltar,
+#secao3 .voltar{
+    border-radius: 7px;
+    border: 2px solid var(--cor-palavras);
+    background: var(--cor-menu);
+}
+
+#secao2 .voltar:hover,
+#secao3 .voltar:hover{
+    color: antiquewhite;
+    background: #003f88;
+}
+
+#down {
+    border: 2px solid var(--cor-palavras);
+    width: 12vw;
+    height: 30vh;
+    display: grid;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 1%;
+    border-radius: 7px;
+    background: var(--cor-menu);
+    transition: 1s;
+}
+
+#down:hover{
+    background: var(--cor-principal);
+    translate: 1px;
+    color: antiquewhite;
+}
+
+#down img {
+    width: 10vw;
+    height: 18vh;
 }
 
 
@@ -127,7 +178,9 @@ div section a {
     padding-right: var(--margem-escrever);
     padding-top: var(--margem-escrever);
 }
-    
+
+
+
 #contato {
     background: var(--cor-contato);
     padding-top: var(--margem-escrever);
@@ -147,7 +200,7 @@ div section a {
 }
 
 #contato div a:hover {
-    color: var(--cor-secao1);
+    color: var(--cor-principal);
 }
 
 #contato div img {
