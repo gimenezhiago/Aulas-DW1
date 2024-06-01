@@ -1,7 +1,7 @@
 :root {
   --margem-escrever: 20px;
   --altura-tela: 100vh;
-  --cor-menu: #0d1b2a;
+  --cor-menu: #2b2d42;
   --altura-menu: 40px;
   --cor-principal: #003f88;
   --cor-contato: #caf0f8;
@@ -29,7 +29,7 @@ img {
 
 #menu {
   height: var(--altura-menu);
-  background: #1b263b;
+  background: var(--cor-menu);
 }
 
 #menu ul {
@@ -56,7 +56,7 @@ img {
   background: antiquewhite;
   border-radius: 170px;
   translate: 0.3px;
-  color: black;
+  color: var(--cor-palavras);
 }
 
 div section h1 {
@@ -66,7 +66,7 @@ div section h1 {
 
 div section a {
   font-weight: 600;
-  color: black;
+  color: var(--cor-palavras);
   font-size: 20px;
 }
 
@@ -82,29 +82,20 @@ div section a {
 }
 
 #secao1 #pergunta {
-  background: var(--cor-menu);
-  border: 2px solid black;
-  border-radius: 7px;
-  width: 350px;
+  width: 370px;
   height: 120px;
   padding-top: 20px;
   padding-left: 10px;
   justify-items: center;
-  transition: 1s;
   margin-left: 37%;
 }
 
-#secao1 #pergunta:hover {
-    background: #003f88;
-    translate: 1px;
-    border: 2px solid white;
-}
 #secao1 p label {
   display: block;
 }
 
 #secao1 p input {
-  background: var(--cor-menu);
+  background: transparent;
   border-bottom: 2px solid black;
   border-left: none;
   border-top: none;
@@ -112,14 +103,20 @@ div section a {
   width: 300px;
 }
 
-
 #secao1 p button {
-  background: var(--cor-principal);
+  background: transparent;
   border: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+#secao1 p button:hover {
+  border: 3px solid var(--cor-contato);
 }
 
 #secao2 {
-  background: rgba(0, 0, 0, 0.712) url(https://i0.wp.com/itusers.today/wp-content/uploads/2019/12/Se-anuncian-mundos-creados-por-los-jugadores-de-Minecraft-con-Ray-Traced.jpg?w=1200&ssl=1);
+  background: url(https://i0.wp.com/itusers.today/wp-content/uploads/2019/12/Se-anuncian-mundos-creados-por-los-jugadores-de-Minecraft-con-Ray-Traced.jpg?w=1200&ssl=1);
   background-size: cover;
   background-position: center;
   height: var(--altura-tela);
@@ -131,47 +128,25 @@ div section a {
 #secao1 p,
 #secao2 p,
 #secao3 p {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 #secao2 .voltar,
 #secao3 .voltar {
-  border-radius: 7px;
-  border: 2px solid var(--cor-palavras);
-  background: var(--cor-menu);
+  color: cornflowerblue;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  border: 3px solid cornflowerblue;
+  background: var(--cor-contato);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #secao2 .voltar:hover,
 #secao3 .voltar:hover {
-  color: antiquewhite;
-  background: #003f88;
-}
-
-#down {
-  border: 2px solid var(--cor-palavras);
-  width: 12vw;
-  height: 30vh;
-  display: grid;
-  justify-content: center;
-  padding-top: 10px;
-  text-align: center;
-  margin-left: 45%;
-  margin-top: 1%;
-  border-radius: 7px;
-  background: var(--cor-menu);
-  transition: 1s;
-}
-
-#down:hover {
-  background: var(--cor-principal);
-  translate: 1px;
-  color: antiquewhite;
-  border: 2px solid white;
-}
-
-#down img {
-  width: 10vw;
-  height: 18vh;
+  color: var(--cor-contato);
+  background: cornflowerblue;
 }
 
 #secao3 {
