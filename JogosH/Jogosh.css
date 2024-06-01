@@ -119,7 +119,7 @@ div section a {
 }
 
 #secao2 {
-  background: url(https://i0.wp.com/itusers.today/wp-content/uploads/2019/12/Se-anuncian-mundos-creados-por-los-jugadores-de-Minecraft-con-Ray-Traced.jpg?w=1200&ssl=1);
+  background: rgba(0, 0, 0, 0.712) url(https://i0.wp.com/itusers.today/wp-content/uploads/2019/12/Se-anuncian-mundos-creados-por-los-jugadores-de-Minecraft-con-Ray-Traced.jpg?w=1200&ssl=1);
   background-size: cover;
   background-position: center;
   height: var(--altura-tela);
