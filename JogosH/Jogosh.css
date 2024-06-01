@@ -1,3 +1,7 @@
+html{
+  overflow-y: hidden;
+}
+
 :root {
   --margem-escrever: 20px;
   --altura-tela: 100vh;
@@ -141,6 +145,7 @@ div section a {
   background: var(--cor-contato);
   padding-left: 5px;
   padding-right: 5px;
+  margin-top: 100px;
 }
 
 #secao2 .voltar:hover,
