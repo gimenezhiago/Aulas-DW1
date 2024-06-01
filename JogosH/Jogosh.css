@@ -86,13 +86,20 @@ div section a{
     color: antiquewhite;
 }
 
+#secao1 #pergunta{
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 350px;
+    height: 90px;
+    padding-top: 20px;
+    justify-items: center;
+}
+
 #secao1 p label {
     display: block;
-    padding-top: 80px;
 }
 
 #secao1 p input {
-    background: var(--cor-principal);
     border-bottom: 2px solid black;
     border-left: none;
     border-top: none;
@@ -103,12 +110,6 @@ div section a{
 #secao1 p button {
     background: var(--cor-principal);
     border: none;
-}
-
-#secao1 p button:hover {
-    background: rgba(0, 0, 0, 0.2);
-    cursor: copy;
-    color: antiquewhite;
 }
 
 
