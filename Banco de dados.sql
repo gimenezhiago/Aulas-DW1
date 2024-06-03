@@ -97,3 +97,20 @@ on p.idproduto = e.idproduto;
 
 -- Para gerar números aleatórios
 update funcionario set salary = round(rand() * 10000, 2)
+
+
+-- Para ver dados aleatórios definindo as colunas
+select idproduto,
+(select nomepro from produto p2 order by rand() limit 1)from produto p;
+
+
+-- Para inserir dados aleatórios
+insert into produto  (nomepro)
+select idproduto,
+(select nomepro from produto p2 order by rand() limit 1)from produto p;
+
+
+-- Para inserir dados aleatórios ignorando os erros
+insert ignore into produto  (nomepro)
+select idproduto,
+(select nomepro from produto p2 order by rand() limit 1)from produto p order by rand() limit 50;
