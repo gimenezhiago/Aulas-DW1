@@ -7,24 +7,37 @@
   </head>
 
   <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-      expedita saepe error. Quis assumenda repudiandae itaque debitis placeat
-      laborum cupiditate eum ullam quas cumque, pariatur amet, dicta sapiente
-      perspiciatis commodi?
-    </p>
-    <ul>
-      <li>jhg</li>
-    </ul>
+    <div class="box">
+      <div class="box1"></div>
+      <div class="box1"></div>
+    </div>
   </body>
   <style>
-    p::first-line{
-      background: red;
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .box {
+      background: gray;
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      justify-content: space-around;
+
+      align-items: flex-start;
     }
 
-    p::selection{
-      background: green;
+    .box1 {
+      position: relative;
+      top: 0.3125rem;
+      border: 1px solid black;
+      width: 100px;
+      background: rgb(175, 74, 175);
+      height: 100px;
     }
 
+    .cor {
+    }
   </style>
 </html>
