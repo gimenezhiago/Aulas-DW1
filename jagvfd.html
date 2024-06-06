@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=!, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <div>
+      <header></header>
+      <div class="meio">
+        <nav></nav>
+        <section></section>
+      </div>
+      <footer></footer>
+    </div>
+</body>
+<style>
+  body{
+    height: 100vh;
+    width: 100vw;
+  }
 
-      body {
-        height: 100vh;
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap-reverse;
-      }
-      div {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-        border: 1px solid black;
-        height: 100px;
-        width: 100px;
-        background: red;
-      }
-    </style>
-  </head>
-  <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </body>
+  div header{
+    background: red;
+    height: 8.75rem;
+  }
+
+  div nav{
+    background: blue;
+    height: 28.125rem;
+    width: 30%;
+  }
+
+  div section{
+    background: green;
+    height: 28.125rem;
+    width: 70%;
+    
+  }
+
+  div footer{
+    background: purple;
+    height: 4.375rem;
+  }
+
+
+  div .meio{
+    display: flex;
+  }
+</style>
 </html>
