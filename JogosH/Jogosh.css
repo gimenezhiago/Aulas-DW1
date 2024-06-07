@@ -106,6 +106,7 @@ div section a {
 
 #secao1 p input::placeholder{
   font-weight: 600;
+  color: var(--cor-menu);
 }
 #secao1 p button {
   background: transparent;
