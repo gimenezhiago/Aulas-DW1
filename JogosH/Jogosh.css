@@ -1,20 +1,20 @@
-html{
+/*html{
   overflow-y: hidden;
-}
+}*/
 
 :root {
-  --margem-escrever: 20px;
+  --margem-escrever: 1.25rem;
   --altura-tela: 100vh;
   --cor-menu: #2b2d42;
-  --altura-menu: 40px;
+  --altura-menu: 2.5rem;
   --cor-principal: #003f88;
   --cor-contato: #caf0f8;
   --cor-palavras: black;
 }
 
 img {
-  width: 200px;
-  height: 50px;
+  width: 12.5rem;
+  height: 3.125rem;
 }
 
 * {
@@ -26,9 +26,9 @@ img {
 }
 
 #menu img {
-  width: 100px;
-  height: 30px;
-  margin-top: 6px;
+  width: 6.25rem;
+  height: 1.875rem;
+  margin-top: .375rem;
 }
 
 #menu {
@@ -39,8 +39,8 @@ img {
 #menu ul {
   display: flex;
   justify-content: space-between;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 9.375rem;
+  padding-right: 9.375rem;
 }
 
 #menu li {
@@ -50,7 +50,7 @@ img {
 #menu a {
   text-decoration: none;
   display: inline-block;
-  padding: 11px;
+  padding: .6875rem;
   color: antiquewhite;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   transition: 0.8s;
@@ -58,7 +58,7 @@ img {
 
 #menu a:hover {
   background: antiquewhite;
-  border-radius: 170px;
+  border-radius: 10.625rem;
   translate: 0.3px;
   color: var(--cor-palavras);
 }
@@ -71,7 +71,7 @@ div section h1 {
 div section a {
   font-weight: 600;
   color: var(--cor-palavras);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #secao1 {
@@ -86,12 +86,9 @@ div section a {
 }
 
 #secao1 #pergunta {
-  width: 370px;
-  height: 120px;
-  padding-top: 20px;
-  padding-left: 10px;
-  justify-items: center;
-  margin-left: 37%;
+  width: 23.125rem;
+  height: 7.5rem;
+  padding-top: 1.25rem;
 }
 
 #secao1 p label {
@@ -107,6 +104,9 @@ div section a {
   width: 300px;
 }
 
+#secao1 p input::placeholder{
+  font-weight: 600;
+}
 #secao1 p button {
   background: transparent;
   border: none;
@@ -127,12 +127,14 @@ div section a {
   padding-left: var(--margem-escrever);
   padding-right: var(--margem-escrever);
   padding-top: var(--margem-escrever);
+
 }
+
 
 #secao1 p,
 #secao2 p,
 #secao3 p {
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 
 #secao2 .voltar,
@@ -143,9 +145,10 @@ div section a {
   text-decoration: none;
   border: 3px solid cornflowerblue;
   background: var(--cor-contato);
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-top: 100px;
+  padding-left: .3125rem;
+  padding-right: .3125rem;
+  position: relative;
+  top: 14.375rem;
 }
 
 #secao2 .voltar:hover,
@@ -167,10 +170,10 @@ div section a {
 #contato {
   background: var(--cor-contato);
   padding-top: var(--margem-escrever);
-  height: 160px;
+  height: 10rem;
   display: flex;
   justify-content: space-around;
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 #contato div p {
@@ -179,7 +182,7 @@ div section a {
 
 #contato div a {
   color: var(--cor-palavras);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #contato div a:hover {
@@ -187,6 +190,6 @@ div section a {
 }
 
 #contato div img {
-  height: 15px;
-  width: 15px;
+  height: .9375rem;
+  width: .9375rem;
 }
