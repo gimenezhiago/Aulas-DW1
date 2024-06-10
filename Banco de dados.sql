@@ -121,3 +121,9 @@ from produto p
 left join estoque e on p.idproduto=e.idproduto  
 inner join pedidohasproduto p2 on p.idproduto=p2.idproduto  
 inner join pedido h on p2.idpedido=h.idpedido;
+
+-- Para atualizar com varías junções
+update produto as p
+join estoque as e
+on p.idproduto=e.idproduto
+set p.nomepro = concat(p.nomepro, 'Atualizado');
