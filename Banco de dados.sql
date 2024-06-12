@@ -115,6 +115,7 @@ insert ignore into produto  (nomepro)
 select idproduto,
 (select nomepro from produto p2 order by rand() limit 1)from produto p order by rand() limit 50;
 
+
 -- Para selecionar com varías junções
 select p.idproduto, p.nomepro, e.estoque, h.`data`  
 from produto p
@@ -122,8 +123,16 @@ left join estoque e on p.idproduto=e.idproduto
 inner join pedidohasproduto p2 on p.idproduto=p2.idproduto  
 inner join pedido h on p2.idpedido=h.idpedido;
 
+
 -- Para atualizar com varías junções
 update produto as p
 join estoque as e
 on p.idproduto=e.idproduto
 set p.nomepro = concat(p.nomepro, 'Atualizado');
+
+
+-- Para deletar com várias junções
+delete idproduto from produto p
+join estoque as e
+on p.idproduto=e.idproduto
+where p.idproduto='2'
