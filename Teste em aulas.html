@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <p class="p" id="p">oi</p>
-</body>
-<style>
-  #p{
-    background: red;
-  }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+    </div>
+  </body>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
 
-  .p{
-    background: yellow;
-  }
-</style>
+    .flex {
+      display: flex;
+      gap: 10px;
+      flex-direction: ;
+    }
+
+    .box{
+      width: 6.25rem;
+      height: 6.25rem;
+    }
+    .box1 {
+      background: red;
+      order: 2;
+      flex-grow: 1;
+    }
+
+    .box2 {
+      background: yellow;
+      flex-grow: 1;
+    }
+
+    .box3 {
+      background: blue;
+      flex-grow: 4;
+    }
+  </style>
 </html>
