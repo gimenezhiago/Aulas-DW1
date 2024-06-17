@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>jshsgfd</h1>
-    <ol>
-        <li>çsd</li>
-        <li>sjadh</li>
-    </ol>
-    <ul>
-        <li class="material-symbols-outlined">dssfggf</li>
-        <li>dsfggth</li>
-    </ul>
-    <ul class="menu">
-        <span class="material-symbols-outlined">logout</span>
-        <li>dsjdgh</li>
-        <li>dkfjgfhg</li>
-    </ul>
-</body>
-<style>
-    ul{list-style-type: lower-roman;}
-    .menu{list-style-type: none;}
-</style>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+    </div>
+  </body>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .flex {
+      display: flex;
+      gap: 10px;
+      flex-direction: ;
+    }
+
+    .box{
+      width: 6.25rem;
+      height: 6.25rem;
+    }
+    .box1 {
+      background: red;
+      order: 2;
+      flex-grow: 1;
+    }
+
+    .box2 {
+      background: yellow;
+      flex-grow: 1;
+    }
+
+    .box3 {
+      background: blue;
+      flex-grow: 4;
+    }
+  </style>
 </html>
