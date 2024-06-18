@@ -135,4 +135,10 @@ set p.nomepro = concat(p.nomepro, 'Atualizado');
 delete idproduto from produto p
 join estoque as e
 on p.idproduto=e.idproduto
-where p.idproduto='2'
+where p.idproduto='2';
+
+
+-- Para agrupar valores
+select nomepro, count(idproduto) as total form produto
+group by nomepro
+order by total desc;
