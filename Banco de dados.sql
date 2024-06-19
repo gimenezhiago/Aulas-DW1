@@ -1,5 +1,3 @@
-
-
 -- Para mostrar as tabelas
 show tables;
 
@@ -139,6 +137,26 @@ where p.idproduto='2';
 
 
 -- Para agrupar valores
-select nomepro, count(idproduto) as total form produto
+select nomepro, count(idproduto) as total from produto
 group by nomepro
 order by total desc;
+
+
+-- Para selecionar o maior valor
+select max(precounitario) from pedidohasproduto;
+
+
+-- Para selecionar o menor valor
+select min(precounitario) from pedidohasproduto;
+
+
+-- Para selecionar a média de valores
+select avg(precounitario) from pedidohasproduto;
+
+
+-- Para selecionar a soma dos valores
+select sum(precounitario) from pedidohasproduto;
+
+
+-- Para contar o registro
+select count(precounitario) from pedidohasproduto;
