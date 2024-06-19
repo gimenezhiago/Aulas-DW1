@@ -19,12 +19,16 @@ body{
 
 main{
     height: 100vh;
-    width: 40vw;
+    width: 25vw;
+    background: var(--branco);
 }
 
 section{
     height: 100vh;
-    width: 60vw;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section img{
