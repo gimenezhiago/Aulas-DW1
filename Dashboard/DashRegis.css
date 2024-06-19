@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     --azul: #1E2772;
     --laranja: #FD7401;
     --cinza: #555555;
-    --branco: #C2C2C2;
+    --branco: #F1F3F6;
+    --branco-letra: #FFFFFF;
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
 }
 
 body{
@@ -20,7 +25,66 @@ body{
 main{
     height: 100vh;
     width: 25vw;
+    background: var(--branco-letra);
+    padding: 1rem;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.5)
+}
+
+main nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+main nav .login{
+    text-decoration: none;
+    color: var(--azul);
+}
+main nav .register{
+    text-decoration: none;
+    color: var(--laranja);
+}
+
+main p label{
+    display: block;
+    color: var(--cinza);
+}
+
+main p input{
+    border: none;
     background: var(--branco);
+    border-radius: 7px;
+    width: 22.5vw;
+    height: 6vh;
+    padding: .625rem;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1)
+}
+
+main p input::placeholder{
+    color: var(--cinza);
+}
+main p input:focus{
+    outline: none;
+    color: var(--cinza);
+}
+
+main .esquecer{
+    display: flex;  
+    justify-content: flex-end;
+}
+
+
+main button{
+    width: 22.5vw;
+    height: 6vh;
+    border-radius: 7px;
+    border: none;
+    background: var(--laranja);
+    color: var(--branco-letra);
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 0 3px 3px rgba(250, 114, 3, 0.418)
 }
 
 section{
@@ -29,6 +93,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: var(--branco);
 }
 
 section img{
