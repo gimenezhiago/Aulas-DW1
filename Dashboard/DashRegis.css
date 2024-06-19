@@ -27,7 +27,9 @@ main{
     width: 25vw;
     background: var(--branco-letra);
     padding: 1rem;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.5)
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+    display: grid;
+    justify-content: center;
 }
 
 main nav{
@@ -46,6 +48,11 @@ main nav .register{
     color: var(--laranja);
 }
 
+main .imagens{
+    display: grid;
+    justify-content: center;
+}
+
 main p label{
     display: block;
     color: var(--cinza);
@@ -58,7 +65,7 @@ main p input{
     width: 22.5vw;
     height: 6vh;
     padding: .625rem;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.1)
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 main p input::placeholder{
@@ -72,6 +79,10 @@ main p input:focus{
 main .esquecer{
     display: flex;  
     justify-content: flex-end;
+}
+
+main .esquecer a{
+    font-size: 14px;
 }
 
 
@@ -97,6 +108,6 @@ section{
 }
 
 section img{
-    height: 40vh;
+    height: 55vh;
     width: 30vw;
 }
