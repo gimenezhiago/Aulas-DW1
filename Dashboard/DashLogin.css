@@ -62,7 +62,9 @@ main p input {
   border: none;
   background: var(--branco);
   border-radius: 7px;
-  width: 22.5vw;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 19vw;
   height: 6vh;
   padding: 0.625rem;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
@@ -71,9 +73,22 @@ main p input {
 main p input::placeholder {
   color: var(--cinza);
 }
+
 main p input:focus {
   outline: none;
   color: var(--cinza);
+}
+
+main p button{
+  height: 6vh;
+  width: 3vw;
+  border: none;
+  border-radius: 7px;
+  background: var(--laranja);
+  cursor: pointer;
+  position: relative;
+  right: .5625rem;
+  top: .125rem;
 }
 
 main .esquecer {
@@ -85,8 +100,8 @@ main .esquecer a {
   font-size: 14px;
 }
 
-main button {
-  width: 22.5vw;
+main #logar {
+  width: 22vw;
   height: 6vh;
   border-radius: 7px;
   border: none;
