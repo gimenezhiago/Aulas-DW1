@@ -5,34 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    body{
-      background: blue;
-      color: antiquewhite;
-    }
+
   </style>
 </head>
 <body>
-  <h1 id="oi">dafhjk</h1>
-  <p name="haigo">defrgtrhyuyi</p>
-  <div name="haigo">clique</div>
-  <h1 id="pai">dfghjhk</h1>
-  <script>
-    var corpo = window.document.body
-    var nome = document.getElementsByName('haigo')[1]
-    document.write.nome = 'olaaaaaaaaa ' 
-    var p1 = window.document.getElementsByTagName('p')[0]
-    var h = document.getElementById('oi')
-    h.style.color = 'green'
-  
-    
-    var d = document.querySelector('div')
-    d.style.color = 'green'
-    d.innerHTML = 'OIIIIIIIIIIIIIIIIIII'
-
-    var w = document.querySelector('h1.pai')
-
-
-
-  </script>
+  <h1>Somando valores</h1>
+  <input type="number" name="txt1" id="txt1"> +
+  <input type="numbet" name="txt2" id="txt2">
+  <button>Somar</button>
+  <div id="resultado">Resultado</div>
 </body>
+<script>
+  var botao = document.querySelector('button')
+  botao.addEventListener('click', somar)
+
+  function somar(){
+    var tn1 = document.querySelector('input#txt1')
+    var tn2 = document.querySelector('input#txt2')
+    var res = document.querySelector('div#resultado')
+    var n1 = Number(tn1.value)
+    var n2 = Number(tn2.value)
+    var s = n1 + n2
+    resultado.innerHTML = s
+  }
+</script>
 </html>
