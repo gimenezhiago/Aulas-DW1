@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            gap: .625rem;
+            height: 100%;
+            width: 100%;
+      
+        }
+        div{
+            width: 300px;
+            height: 400px;
+            background: red;
+        }
+
+        @media (max-width: 568px) {
+            body{
+                flex-wrap: wrap;
+            }
+            div{
+                width: 400px;
+            }
+        }
+
+        @media (min-width: 568px) and (max-width:1000px) {
+            div{
+                width: 450px;
+            }
+            body{
+                flex-wrap: wrap;
+            }
+        }
+
+        @media all and (min-width: 1001px){
+            div{
+                width: 500px;
+            }
+            body{
+                flex-wrap: wrap;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

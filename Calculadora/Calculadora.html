@@ -10,14 +10,13 @@
 <body>
     <div class="container">
         <h1>Calculadora</h1>
-        <input type="number" id="txn1">
-        <input type="number" id="txn2">
-        <button id="resmais">+</button>
-        <button id="resmenos">-</button>
-        <button id="resx">x</button>
-        <button id="resdiv">/</button>
-        <p>Resultado: <span></span>
-        </p>
+        <input type="text" name="txn1" id="txn1">
+        <input type="text" name="txn2" id="txn2">
+        <button id="resmais" onclick="somar()">Mais</button>
+        <button id="resmenos" onclick="subtrair()">menos</button>
+        <button id="resx" onclick="multiplicar()">mul</button>
+        <button id="resdiv" onclick="dividir()">dividir</button>
+        <p>Resultado: <span>oi</span></p>
     </div>
 </body>
 </html>
