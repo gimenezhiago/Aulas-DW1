@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Calculadora.css">
-    <script src="testejava.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Calculadora.css" />
     <title>Calculadora</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Calculadora</h1>
-        <input type="text" name="txn1" id="txn1">
-        <input type="text" name="txn2" id="txn2">
-        <button id="resmais" onclick="somar()">Mais</button>
-        <button id="resmenos" onclick="subtrair()">menos</button>
-        <button id="resx" onclick="multiplicar()">mul</button>
-        <button id="resdiv" onclick="dividir()">dividir</button>
-        <p>Resultado: <span>oi</span></p>
+      <h1>Calculadora</h1>
+      <input type="number" id="txn1" />
+      <input type="number" id="txn2" />
+      <button id="resmais" onclick="somar()">+</button>
+      <button id="resmenos" onclick="subtrair()">-</button>
+      <button id="resx" onclick="multiplicar()">x</button>
+      <button id="resdiv" onclick="dividir()">/</button>
+      <p>Resultado: <span></span></p>
     </div>
-</body>
+    <script src="testejava.js"></script>
+  </body>
 </html>
