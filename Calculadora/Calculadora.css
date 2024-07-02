@@ -1,48 +1,120 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+  --cor-fundo: #023047;
+  --cor-container: #ffb703;
+  --branco: antiquewhite;
+  --preto: black;
+
+}
+
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  width: 100vw;
+
+body{
+  font-family: "Nunito";
   height: 100vh;
+  width: 100vw;
+  background: var(--cor-fundo);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #023047;
-  color: #fff;
-  font-size: 20px;
 }
 
-div.container {
-  border: 2px solid;
+div.container{
   height: 80vh;
-  text-align: center;
-  display: grid;
-  align-items: center;
-  justify-content: center;
   width: 30vw;
-  border-radius: 0.625rem;
-  background-color: #ffb703;
+  background: var(--cor-container);
+  display: grid;
+  justify-items: center;
+  align-content: space-evenly;
+  border: 2px solid var(--branco);
+  border-radius: 7px;
+  text-align: center;
+  padding: 1.875rem;
 }
 
-input#txn1,
-input#txn2 {
-  width: 33vh;
-  height: 5vh;
+.container input{
+  width: 16vw;
+  height: 8vh;
   outline: none;
-  background-color: #8ecae6;
+  border: 2px solid var(--branco);
+  background: var(--cor-container);
+  border-radius: 7px;
+  text-align: center;
+  color: var(--branco);
 }
-button {
-  display: grid;
-  width: 12vw;
-  height: 5vh;
-  margin-top: 0.3125rem;
-  background-color: #8ecae6;
+
+.container input:focus{
+  text-align: center;
+  color: var(--branco);
+  background: var(--cor-fundo);
 }
-.b {
-  display: flex;
+
+.container input::placeholder{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.container div.botao{
   flex-wrap: wrap;
-  align-items: center;
-  width: 30vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+div.botao button{
+  height: 7vh;
+  width: 9vw;
+  border: 3px solid var(--branco);
+  border-radius: 7px;
+  background: var(--cor-container);
+  color: var(--branco);
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+div.botao button:hover{
+  cursor: pointer;
+  background: var(--cor-fundo);
+  color: var(--branco);
+  translate: 1px;
+}
+
+@media all and (min-width: 0px) and (max-width: 374px){
+  div.container{
+    width: 250px;
+  }
+  .container input{
+    width: 150px;
+  }
+}
+
+@media all and (min-width: 375px) and (max-width:600px){
+  div.container{
+    width: 300px;
+  }
+  .container input{
+    width: 200px;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width:800px){
+  div.container{
+    width: 350px;
+  }
+  .container input{
+    width: 250px;
+  }
+}
+
+@media all and (min-width: 801px){
+  div.container{
+    width: 400px;
+  }
+  .container input{
+    width: 300px;
+  }
 }
