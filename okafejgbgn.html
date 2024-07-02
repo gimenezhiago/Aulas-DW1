@@ -1,60 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      body {
-        height: 200vh;
-        width: 100%;
-        padding: 0;
-        margin: 0;
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>wwergetrbyth</h1>
+  <input type="number" name="vel" id="txtvel">
+  <input type="button" value="verificar" onclick="calcular()">
+  <div id="res">res</div>
+  <script>
+    
+    function calcular() {
+      var vel = parseFloat(document.querySelector('input#txtvel'))
+      var res = document.querySelector('#res')
+      res.innerHTML = 'Sua velocidade é de <strong> ${vel} </strong> km/h'
+      if (vel > 60) {
+        res.innerHTML += '<br><strong> Multa </strong>'
       }
+      res.innerHTML += '<br> Dirija com cinto'
+    }
 
-      .container {
-        display: flex;
-        gap: 100px;
-      }
-      div {
-        width: 300px;
-        height: 400px;
-        background: rgb(240, 5, 5);
-        transition: all 200ms cubic-bezier(0, 1.09, 1, 1) ;
-      }
-
-      div:hover{
-        background: green;
-      }
-
-      nav {
-        list-style-type: none;
-        width: 100%;
-        position: fixed;
-        background: rgba(0, 0, 0, 0.288);
-      }
-    </style>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="#home"></a></li>
-        <li><a href="#full"></a></li>
-      </ul>
-    </nav>
-    <div class="container">
-      <div id="home"></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div id="full"></div>
-    </div>
-  </body>
+  </script>
+</body>
 </html>
