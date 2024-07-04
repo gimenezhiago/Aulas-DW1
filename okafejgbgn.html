@@ -17,7 +17,6 @@
   function calcular() {
     var vel = parseFloat(document.querySelector('input#txtvel').value)
     var res = document.querySelector('#res')
-    
     res.innerHTML = `A sua velocidade é ${vel}`
     if (vel > 60) {
       res.innerHTML += '<br><strong> Multa </strong>'
