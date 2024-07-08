@@ -13,7 +13,6 @@ body{
 
 div.container{
     display: grid;
-    align-content: center;
     justify-content: center;
 }
 
