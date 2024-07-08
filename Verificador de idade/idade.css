@@ -11,16 +11,17 @@ body{
     width: 100vw;
 }
 
-header{
-    text-align: center;
-    color: antiquewhite;
-}
-
 div.container{
     display: grid;
     align-content: center;
     justify-content: center;
 }
+
+header{
+    text-align: center;
+    color: antiquewhite;
+}
+
 
 section{
     background: antiquewhite;
