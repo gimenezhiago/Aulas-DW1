@@ -19,6 +19,7 @@ body {
   width: 100vw;
   background: var(--cor-fundo);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
