@@ -11,7 +11,7 @@ btn.addEventListener('click', () => {
 )
 
 function calcular(veiculo, via, res, porcento, multa) {
-
+    if (veiculo < 0 || via < 0) return window.alert(`Insira valores válidos`)
     if (veiculo <= via) {
         res.innerHTML = `Você não excedeu a velocidade da via. Sua multa é de <b>R$ 0,00</b>`
         res.style.background = 'green'
