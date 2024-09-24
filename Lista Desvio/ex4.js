@@ -6,7 +6,7 @@ function gotas(mg) {
     let gt = ml*20
     return gt
 }
-
+  
 function calcular(i, p) {
     if (i >= 12) {
         if (p >= 60) {
