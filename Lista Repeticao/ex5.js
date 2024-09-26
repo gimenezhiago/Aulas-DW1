@@ -1,10 +1,12 @@
 
 function primo(n) {
     if (n > 1){
-        if (n / n == 1 && n / 1 == n) {
-            return true
-        } else {
-            return false
+        for(let i = 2; i <= n;i++) {
+            if(n % i == 0) {
+                return false
+            } else {
+                return true
+            }
         }
     } else {
         return false
@@ -19,4 +21,4 @@ function repPrimo(h) {
     }
 }
 
-repPrimo(100)
+repPrimo(10)
