@@ -1,8 +1,11 @@
 function capitalizeWords(str) {
-    let in = str[x].toUpperCase
-    for(let i = 0; i < str.length; i++) {
-        let
+    let palavra = str.split(' ')
+
+    for(let i = 0; i < palavra.length; i++) {
+        palavra[i] = palavra[i].charAt(0).toUpperCase() + palavra[i].slice(1).toLowerCase()
+
     }
+    return palavra.join(' ')
 }
 
 console.log(capitalizeWords("hello world")); // Exibe: "Hello World"
