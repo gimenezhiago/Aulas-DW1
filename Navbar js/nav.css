@@ -12,37 +12,63 @@ nav {
     display: flex;
     background: green;
     color: white;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 li {
     text-decoration: none;
     list-style: none;
-}
-
-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: white;
-    color: green;
+    font-size: 1rem;
 }
 
 .logo {
-    position: fixed;
-    left: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-@media screen and (max-width: 768px){
-    
+.navbar {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768px){
-    
+div {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    ul {
+        display: none;
+        flex-direction: column;
+        background-color: green;
+        position: fixed;
+        right: 0;
+        width: 50vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    ul.show {
+        display: flex;
+        top: 5vh;
+        font-size: 2rem;
+    }
+
+    .navbar {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    ul {
+        flex-direction: row;
+    }
 }
